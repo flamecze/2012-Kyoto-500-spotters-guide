@@ -1,0 +1,173 @@
+
+body {
+    font-family: Arial;
+    margin: auto;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 960px;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c10000;
+    text-decoration: underline;
+}
+
+abbr {
+    cursor: help;
+}
+
+#grid {
+    overflow: hidden;
+    width: 960px;
+    margin: auto;
+    border: 1px solid silver;
+    background-color: #ececec;
+    margin-bottom: 10px;
+}
+
+#grid div {border: 0 solid; padding: 0;}
+#grid div div {border-color: red}
+#grid div div div {border-color: blue}
+small {font-size: 10px;}
+
+#block {
+    float: left;
+    overflow: hidden;
+    width: 310px;
+    height: 125px;
+    margin: 5px;
+}
+
+#block2 {
+    overflow: hidden;
+    width: 310px;
+    height: 125px;
+    margin: 5px;
+}
+
+#block3 {
+    float: left;
+    overflow: hidden;
+    width: 310px;
+    height: 135px;
+    margin: 5px;
+}
+
+#number {
+    float: left;
+    width: 50px;
+    height: 135px;
+    background: #cecece;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#number3 {
+    float: left;
+    width: 50px;
+    height: 135px;
+    background: #cecece;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#flag {
+    vertical-align: middle;
+    width: 32px;
+    margin: 0 5px;
+}
+
+#quali {
+    float: right;
+    color: gray;
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+#flag_name {
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    background: #dfdfdf;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#team {
+     width: 260px;
+     height: 20px;
+     line-height: 20px;
+     background: #fff;
+     padding: 0 5px;
+     font-family: Arial;
+     font-weight: bold;
+     font-size: 12px;
+     text-indent: 5px;
+}
+
+#header {
+    background: #ececec url('header.png') no-repeat center center;
+    width: 960px;
+    height: 155px;
+    margin: auto;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 10px;
+}
+
+#links {
+    background: #ececec;
+    width: 960px;
+    height: 25px;
+    margin: auto;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+#links a {
+    text-decoration: underline;
+}
+
+#clickimg {
+    text-align: right; padding-right: 5px;
+    font-size: 10px;
+}
+
+#track_info {
+    font-size: 11px;
+    color: #7f7f7f;
+    position: relative; left: 20px;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+
+#track_info span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#footer {
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 18px;
+}
